@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/kieve/docker-templates/master/kieve/hdmi-controller.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category>Tools:</Category>
+  <Name>hdmi-controller</Name>
+  <Description>
+  Web Server that interfaces with a TESmart HDMI 4x4 matrix over a Serial Port
+  </Description>
+  <Overview>
+  Web Server that interfaces with a TESmart HDMI 4x4 matrix over a Serial Port
+  </Overview>
+  <Support></Support>
+  <Registry>https://registry.hub.docker.com/u/kieve/hdmi-controller/</Registry>
+  <GitHub>https://github.com/kieve/hdmi-controller</GitHub>
+  <Repository>kieve/hdmi-controller</Repository>
+  <Project></Project>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>SERIAL_PORT</Name>
+      <Value>/dev/ttyS0</Value>
+    </Variable>
+    <Variable>
+      <Name>UMASK</Name>
+      <Value>000</Value>
+    </Variable>
+    <Variable>
+      <Name>PUID</Name>
+      <Value>99</Value>
+    </Variable>
+    <Variable>
+      <Name>PGID</Name>
+      <Value>100</Value>
+    </Variable>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/tmp</HostDir>
+      <ContainerDir>/tmp</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <ExtraParams></ExtraParams>
+</Containers>
