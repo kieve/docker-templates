@@ -12,6 +12,7 @@
   <Repository>kieve/waifu-gossip</Repository>
   <Registry>https://registry.hub.docker.com/u/kieve/waifu-gossip/</Registry>
   <GitHub>https://github.com/kieve/WaifuGossip</GitHub>
+  <TemplateURL>https://raw.githubusercontent.com/kieve/docker-templates/master/kieve/waifu-gossip.xml</TemplateURL>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <BindTime>true</BindTime>
