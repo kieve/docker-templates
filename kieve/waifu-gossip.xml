@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Name>waifu-gossip</Name>
-  <Registry>http://10.81.1.1:5000/registry</Registry>
-  <Repository>waifu-gossip</Repository>
+  <Registry>http://localhost:5000/</Registry>
+  <Repository>localhost:5000/waifu-gossip</Repository>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <BindTime>true</BindTime>

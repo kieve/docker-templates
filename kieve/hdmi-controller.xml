@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
     <Name>hdmi-controller</Name>
-    <Registry>http://10.81.1.1:5000/registry</Registry>
-    <Repository>hdmi-controller</Repository>
+    <Registry>http://localhost:5000/</Registry>
+    <Repository>localhost:5000/hdmi-controller</Repository>
     <Shell>bash</Shell>
     <Privileged>false</Privileged>
     <BindTime>true</BindTime>
