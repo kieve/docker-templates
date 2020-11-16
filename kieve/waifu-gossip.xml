@@ -2,7 +2,7 @@
 <Container>
   <Name>waifu-gossip</Name>
   <Registry>http://10.81.1.1:5000/</Registry>
-  <Repository>kieve/waifu-gossip</Repository>
+  <Repository>waifu-gossip</Repository>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <BindTime>true</BindTime>
