@@ -11,9 +11,8 @@
   Web Server that interfaces with a TESmart HDMI 4x4 matrix over a Serial Port
   </Overview>
   <Support></Support>
-  <Registry>https://registry.hub.docker.com/u/kieve/hdmi-controller/</Registry>
-  <GitHub>https://github.com/kieve/hdmi-controller</GitHub>
-  <Repository>kieve/hdmi-controller</Repository>
+  <Registry>http://10.81.1.1/</Registry>
+  <Repository>hdmi-controller</Repository>
   <Project></Project>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
@@ -21,7 +20,7 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>8080</HostPort>
+        <HostPort>8081</HostPort>
         <ContainerPort>8080</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
@@ -32,18 +31,6 @@
       <Name>SERIAL_PORT</Name>
       <Value>/dev/ttyS0</Value>
     </Variable>
-    <Variable>
-      <Name>UMASK</Name>
-      <Value>000</Value>
-    </Variable>
-    <Variable>
-      <Name>PUID</Name>
-      <Value>99</Value>
-    </Variable>
-    <Variable>
-      <Name>PGID</Name>
-      <Value>100</Value>
-    </Variable>
     <Device>
       <Name>SERIAL_PORT</Name>
       <Value>/dev/ttyS0</value>
@@ -51,7 +38,7 @@
   </Environment>
   <Data>
     <Volume>
-      <HostDir>/mnt/cache/appdata/tmp</HostDir>
+      <HostDir>/mnt/cache/appdata/hdmi-controller</HostDir>
       <ContainerDir>/tmp</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
