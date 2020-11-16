@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>waifu-gossip</Name>
-  <Registry>http://localhost:5000/</Registry>
-  <Repository>localhost:5000/waifu-gossip</Repository>
-  <Shell>bash</Shell>
-  <Privileged>false</Privileged>
-  <BindTime>true</BindTime>
-  <Networking>
-    <Mode>bridge</Mode>
-  </Networking>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/cache/appdata/waifu-gossip</HostDir>
-      <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
+    <Name>waifu-gossip</Name>
+    <Registry>http://localhost:5000/</Registry>
+    <Repository>localhost:5000/waifu-gossip</Repository>
+    <Shell>bash</Shell>
+    <Privileged>false</Privileged>
+    <BindTime>true</BindTime>
+    <Networking>
+        <Mode>bridge</Mode>
+    </Networking>
+    <Data>
+        <Volume>
+            <HostDir>/mnt/cache/appdata/waifu-gossip</HostDir>
+            <ContainerDir>/config</ContainerDir>
+            <Mode>rw</Mode>
+        </Volume>
+    </Data>
 </Container>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Containers>
+<Container>
     <Name>hdmi-controller</Name>
     <Registry>http://localhost:5000/</Registry>
     <Repository>localhost:5000/hdmi-controller</Repository>
