@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-    <Name>hdmi-controller</Name>
+    <Name>stream-badge</Name>
     <Registry>http://localhost:5000/</Registry>
     <Repository>localhost:5000/stream-badge</Repository>
     <Shell>bash</Shell>
