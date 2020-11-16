@@ -33,7 +33,7 @@
     </Variable>
     <Device>
       <Name>SERIAL_PORT</Name>
-      <Value>/dev/ttyS0</value>
+      <Value>/dev/ttyS0</Value>
     </Device>
   </Environment>
   <Data>
