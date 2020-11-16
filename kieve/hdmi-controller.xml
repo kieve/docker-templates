@@ -11,7 +11,7 @@
   Web Server that interfaces with a TESmart HDMI 4x4 matrix over a Serial Port
   </Overview>
   <Support></Support>
-  <Registry>http://10.81.1.1/</Registry>
+  <Registry>http://10.81.1.1:5000/</Registry>
   <Repository>hdmi-controller</Repository>
   <Project></Project>
   <BindTime>true</BindTime>
