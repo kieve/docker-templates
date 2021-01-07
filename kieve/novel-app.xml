@@ -18,7 +18,7 @@
     </Networking>
     <Data>
         <Volume>
-            <HostDir>/mnt/cache/appdata/ene</HostDir>
+            <HostDir>/mnt/cache/appdata/novel-app</HostDir>
             <ContainerDir>/config</ContainerDir>
             <Mode>rw</Mode>
         </Volume>
